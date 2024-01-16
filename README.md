@@ -1,68 +1,39 @@
-# Sistema Web movil para gestion de Buses
-Un sistema que gestiona todo lo relacionado con compra de boletos de Autobus asi como la gestion de los mismos,cuenta con 3 sistemas como son 2 movil y una wed.
-El sistema movil sera de uso para los usarios donde podran visaulizar todo acerca de las cooperativas y buses asi comprar sus boletos, la segunda aplicacion movil sera de uso exclusivo para los controladores puedan validar el ticket del pasajero y la aplicacion web gestiona todo acerca de los buses como agregar una nueva unidad, fechas de salida y llegada entr otras funcoines.
+# Sistema de Notificación de Alerta de Emergencia o Pánico
+Frente al incremento de la inseguridad en el Ecuador, es imperante contar con herramientas que permitan comunicar con el menor esfuerzo sobre si una persona esta sufriendo algún tipo de ataque, es asi que se popularizan los botones de pánico
+![Captura de pantalla del portafolio web](alarmaimg.png)
 
-![Captura de pantalla del portafolio web](B1.jpg)
-![Captura de pantalla del portafolio web](B2.jpg)
-![Captura de pantalla del portafolio web](B3.jpg)
-![Captura de pantalla del portafolio web](B4.jpg)
-![Captura de pantalla del portafolio web](B5.jpg)
-
-## Contribuidores
-- Paulo1603C
-- Diego89git
-- ferguevara2000
-- mirandaLopezAbraham1
-- EsthefaniaVillacres
 
 ## Tecnologías utilizadas
 
-- Flutter
-- Angular
+- .Net
+- VS
+- SQL Server
+- Firebase
 - C#
 
 ## Características
 
-### Aplicación móvil para usuarios:
-- Permite a los usuarios visualizar información sobre las cooperativas y autobuses disponibles.
-- Los usuarios pueden comprar boletos directamente desde la aplicación.
-- Proporciona detalles sobre los horarios de salida y llegada, precios de los boletos, tipos de autobuses, etc.
-- Puede ofrecer la opción de buscar rutas y destinos específicos.
-- Puede proporcionar notificaciones de cambios de horarios o cancelaciones de viajes.
-
-### Aplicación móvil para controladores:
-- Esta aplicación está diseñada exclusivamente para los controladores de los autobuses.
-- Permite a los controladores validar los tickets de los pasajeros escaneando códigos QR o utilizando algún otro método de validación.
-
-### Aplicación web:
-- Esta aplicación web se encarga de la gestión general del sistema.
-- Permite agregar nuevas unidades de autobuses al sistema, registrar sus detalles y asignarles rutas específicas.
-- Gestiona las fechas de salida y llegada de los autobuses.
-- Proporciona una interfaz administrativa para gestionar y mantener el sistema en funcionamiento.
-
+### Aplicación cliente Móvil:
+ - La app movil permite al ciudadano disponer de una herramienta que previo a su registro y validación por parte de la institución a cargo, puede con solo presionar un boton de su teléfono comunicar a los usuarios cercanos y a la autoridad a cargo principalmente cuando se encuentre bajo ataque, enviando su hubicación mediante notificaciones en tiempor real a los usuarios parametrizados
+![Captura de pantalla del portafolio web](principal.PNG)
+### Aplicación cliente Escritorio:
+-  La app de escritorio permite al personal de la institución a cargo gestionar, tanto los usuarios como las alertas que se generan para proceder con la cordinación efectiva de las autoridades pertinentes.
+![Captura de pantalla del portafolio web](sec1.PNG)
+### Galería:
+- 
+![Captura de pantalla del portafolio web](sec2.PNG)
+![Captura de pantalla del portafolio web](sec3.PNG)
+![Captura de pantalla del portafolio web](sec4.PNG)
+![Captura de pantalla del portafolio web](sec5.PNG)
 ## Instalación y ejecución
 -Para poder correr esta aplicaion es necesario tener instala flutter, dart, Angular.
 - Pasos:
 1. Clona o descarga este repositorio en tu máquina local.
-  Aplicación movil
-2. Abre el proyecto en tu editor texto preferido .
-3. Ejecuta la aplicaion `main.dart`.
-  Aplicación Web
-4. Abre el proyecto en tu editor texto preferido .
-5. Ejecuta el proyecto de angular
-## Personalización
+  Aplicación Escritorio
+-. Abre el proyecto en VS .
+-. Crea las bases de datos
+-. Configura la conexión.
 
-Si deseas personalizar este portafolio web para tu propio uso debes tener conocimiento en flutter y su lenguaje dart asi como también en Angular, sigue estos pasos:
-
-Aplicación movil
-1. Modifica los archivos `.dart` que quieraas modificar.
-2. Agrega tus propias imágenes en la carpeta `images` y actualiza las referencias correspondientes en el código.
-3. Guarda cambios y puedes ejecutarlo y ver los resultados
-
-Aplicación web
-1. Modifica los archivos que desees modificar como html, css.
-2. Agrega tus propias imágenes en la carpeta `images`, `Texo` y actualiza las referencias correspondientes en el código.
-3. Guarda cambios y puedes ejecutarlo y ver los resultados
 ## Contribución
 
 Si deseas contribuir a este proyecto, sigue estos pasos:
